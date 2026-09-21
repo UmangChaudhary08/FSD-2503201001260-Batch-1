@@ -9,7 +9,7 @@ event.on('greet', (name) => {
 });
 
 event.on('exit', () => {
-    console.log('exits mycustom event emitter..');
+    console.log('exits mycustom event emitter.');
 });
 
 event.emit('greet', 'CSE36');
